@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>To Do List</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<h1 id="title">To Do List</h1>
+
+	<h3>Incomplete Tasks Remaining: <span id="count"></span></h3>
+
+	<form>
+	<h3 id="addText"> Add Task: <input type="text" id="taskName"> <button type="button" id="addTask">Add</button></h3>
+	</form>
+
+	<div id="list-table">
+		<div class="table-col" id="description">
+			<div class="header">Description</div>
+		</div>
+		<div class="table-col" id="completed">
+			<div class="header">Completed</div>
+
+		</div>
+		<div class="table-col" id="remove">
+			<div class="header">Remove</div>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+</html>

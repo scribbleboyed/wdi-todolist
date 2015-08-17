@@ -1,0 +1,91 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #8585AD;
+	color: #ccc;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+#title {
+	margin-top: 100px;
+	margin-bottom: 0px;
+	color: #fff;
+	font-size: 50px;
+	text-shadow: 1px 1px 5px #52527A;
+}
+
+#count {
+	color: #fff;
+}
+
+#addText {
+	color: #fff;
+}
+
+#taskName {
+	width: 300px;
+	height: 30px;
+}
+
+#addTask {
+	width: 100px;
+	height: 36px;
+	background-color: #B2B2CC;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bolder;
+	border: none;
+	padding: 0px;
+	vertical-align: top;
+}
+
+input[type="text"] {
+    font-size:20px;
+}
+
+#list-table {
+	margin-top: 30px;
+	background: #E0E0EB;
+	display: inline-block;
+	padding: 5px;
+	box-shadow: 1px 1px 10px #52527A;
+}
+
+.table-col {
+	display: inline-block;
+	background: #fff;
+	vertical-align: top;
+}
+
+#description {
+	width: 400px;
+}
+
+#completed, #remove {
+	width: 120px;
+	text-align: center;
+}
+
+.header {
+	background-color: #52527A;
+	color: #fff;
+	font-weight: bolder;
+	padding: 5px;
+}
+
+.gray-row{
+	background-color: #C2C2D6;
+	color: #52527A;
+	padding: 5px;	
+	height: 20px;
+}
+
+.white-row{
+	background-color: #fff;
+	color: #52527A;
+	padding: 5px;
+	height: 20px;	
+}
